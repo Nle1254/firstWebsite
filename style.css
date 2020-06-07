@@ -1,0 +1,82 @@
+    html{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width:100%;
+        font-family: "Arvo", sans-serif;
+        margin: 0px;
+        padding: 5px;
+        font-col
+    }
+    body{
+        background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+        background-size: 400% 400%;
+        position: relative;
+        animation: change 15s ease-in-out infinite;
+    }
+    @keyframes change{
+        0%{background-position: 0 50%;}
+        50%{background-position: 100% 50%;}
+        100%{background-position: 0 50%;}
+    }
+    .profile-pic{
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+    }
+
+    .wrapper{
+        background-color: rgba(119, 136, 153, 0.1);
+        color:white;
+        margin: 0 auto;
+        max-width: 60%;
+        display:flex;
+        flex-direction:row;
+        height: 60%;
+        border: 3px solid #fff;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .left{
+        justify-content: center;
+        font-family: "Arvo", sans-serif;
+        margin: 0px;
+        padding-left: 25px;
+        display: inline-block;
+    }
+    h1, h4{
+        margin: 0;
+    }
+    h4{
+        font-style: italic;
+    }
+
+    .right{
+        align-content: center;
+        font-size: 24px;
+        font-weight: lighter;
+        position: relative;
+        margin-left: 25px;
+        padding-right: 25px;
+    }
+
+    .links{
+        font-size: 22px;
+        font-weight: lighter;
+        text-align:left;
+    }
+    .links ul{
+        display: inline-block;
+        padding:0px;
+        margin:0px;
+    }
+    .links ul li{
+        text-align: left;
+        list-style-type: none;
+        margin-left: 0px;
+    }
+    .links a:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+    }
