@@ -1,13 +1,12 @@
     html{
         display: flex;
-        align-items: center;
+        align-items: top;
         justify-content: center;
         height: 100%;
         width:100%;
         font-family: "Arvo", sans-serif;
         margin: 0px;
         padding: 5px;
-        font-col
     }
     body{
         background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
@@ -24,6 +23,12 @@
         border-radius: 50%;
         width: 300px;
         height: 300px;
+    }
+    .nav{
+        display: inline;
+        font-family: "Arvo", sans-serif;
+        margin: 5px;
+        padding: 5px; 
     }
 
     .wrapper{
@@ -76,6 +81,7 @@
         text-align: left;
         list-style-type: none;
         margin-left: 0px;
+        
     }
     .links a:hover{
         background-color: rgba(0, 0, 0, 0.1);
